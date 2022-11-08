@@ -1,2 +1,1 @@
-*Chwilowe problemy*
-Zadania wkrótce pojawią się z powrotem w repozytorium
+Zadania na laboratiorum z języka C
