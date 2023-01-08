@@ -3,6 +3,7 @@
 
 int main()
 {
+<<<<<<< HEAD
     char napis[50];
     printf("Podaj wyraz: ");
     scanf("%s",&napis);
@@ -20,5 +21,27 @@ int main()
         }
     }
     printf("Wyraz jest palindromem");
+=======
+    char slowo[20];
+    printf("Podaj slowo: ");
+    scanf("%s",slowo);
+    int dl = strlen(slowo);
+    int i = 0;
+    int flaga = 0;
+    while(i<dl)
+    {
+        if(slowo[i] != slowo[dl-i-1])
+        {
+            printf("Slowo nie jest palindromem\n");
+            flaga = 1;
+            break;
+        }
+        ++i;
+    }
+    if(flaga!=1)
+    {
+        printf("Slowo jest palindromem\n");
+    }
+>>>>>>> b0987a3efaacc7f59dc8747a523e09bc6e214cdd
     return 0;
 }
