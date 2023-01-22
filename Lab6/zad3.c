@@ -1,12 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
-void ciag(int n)
+long ciag(int n)
 {
-    if(n>0)
+    if(n<=0)
     {
-        printf("%d ",n);
+        return 1;
+    }
+    else
+    {
         ciag(n-1);
+        printf("%d ",n);
     }
 }
 

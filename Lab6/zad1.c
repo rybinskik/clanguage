@@ -4,7 +4,7 @@ long silnia(int n)
 {
     if(n==1)
     {
-        return n;
+        return 1;
     }
     else
     {
@@ -17,6 +17,6 @@ int main()
     printf("Wpisz liczbe: ");
     int n = 0;
     scanf("%d",&n);
-    printf("Silnia z %d wynosi %d",n,silnia(n));
+    printf("%d! = %d",n,silnia(n));
     return 0;
 }
